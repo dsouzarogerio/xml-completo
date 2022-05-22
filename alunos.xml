@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<treinaweb>
+    <alunos>
+        <aluno id="124">
+            <nome>José da Silva</nome>
+            <endereco>
+                Rua Gonçalves Dias, 305
+            </endereco>
+            <e-mail>jose@mail.com</e-mail>
+            <curso_atual>XML</curso_atual>
+        </aluno>
+    </alunos>
+</treinaweb>

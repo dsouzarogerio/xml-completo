@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+    <circle cx="100" cy="100" r="50">
+        <animate attributeName="cy"
+             from="100"
+             to="300"
+             dur="3s"
+             begin="click"
+             repeatCount="2"
+             id="circle-anime-y">
+        </animate>    
+        <animate attributeName="cx"
+             from="100"
+             to="300"
+             dur="2s"
+             begin="circle-anime-y.begin + 1"
+             repeatCount="2">
+        </animate>   
+    </circle>
+    <rect width="100" height="100" x="300" y="150">
+        <animateMotion
+            path="M0,0 30,30 -30,30 60,90"
+            dur="4s"
+            repeatCount="4"
+            begin="click">
+            
+        </animateMotion>
+        <animate attributeName="fill"
+                    from="black"
+                    to="red"
+                    dur="4s"
+                    repeatCount="4"
+                    begin="click">
+            
+        </animate> 
+    </rect>
+    <rect width="100" height="100" x="20" y="300">
+        <animateTransform attributeName="transform"
+            type="rotate"
+            from="0 75 75"
+            to="360 75 75"
+            dur="3s"
+            begin="click">
+            
+        </animateTransform>
+    </rect>
+</svg>

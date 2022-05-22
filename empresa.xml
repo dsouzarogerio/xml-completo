@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<empresa xmlns="http://www.exemplo.com/namespace/empresa"
+         xmlns:d="http://www.exemplo.com/namespace/dependentes">
+    <funcionarios>
+        <funcionario id="0001">
+            <nome>Carlos</nome>
+            <cargo>Gerente</cargo>
+            <d:dependentes>
+                <d:dependente d:numero="01">
+                    <d:nome>Mara</d:nome>
+                    <d:parentesco>Cônjuge</d:parentesco>
+                </d:dependente>
+                <d:dependente d:numero="02">
+                    <d:nome>Carlos Júnior</d:nome>
+                    <d:parentesco>Filho</d:parentesco>
+                </d:dependente>
+            </d:dependentes>
+        </funcionario>
+        <funcionario id="0002">
+            <nome>Roberto</nome>
+            <cargo>Encarregado</cargo>
+            <d:dependentes>
+                <d:dependente d:numero="01">
+                    <d:nome>Maria</d:nome>
+                    <d:parentesco>Cônjuge</d:parentesco>
+                </d:dependente>
+            </d:dependentes>
+        </funcionario>
+    </funcionarios>
+</empresa>

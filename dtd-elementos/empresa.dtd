@@ -1,0 +1,10 @@
+<!ELEMENT empresa (funcionarios)>
+<!ELEMENT funcionarios (funcionario+)>
+<!ELEMENT funcionario (nome, cargo, (idade | data-nascimento), dependentes?)>
+<!ELEMENT nome (#PCDATA)>
+<!ELEMENT cargo (#PCDATA)>
+<!ELEMENT idade (#PCDATA)>
+<!ELEMENT data-nascimento (#PCDATA)>
+<!ELEMENT dependentes (dependente+)>
+<!ELEMENT dependente (nome, parentesco)>
+<!ELEMENT parentesco (#PCDATA)>

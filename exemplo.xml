@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<treinaweb>
+    <cursos>
+        <curso>
+            <nome id="1230">XML</nome>
+        </curso>
+    </cursos>
+</treinaweb>

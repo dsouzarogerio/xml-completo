@@ -1,0 +1,19 @@
+
+<!ELEMENT receita (titulo, ingredientes, instrucoes)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ELEMENT instrucoes (passo+)>
+<!ELEMENT passo (#PCDATA)>
+
+<!ATTLIST receita
+                nome CDATA #REQUIRED
+                tempo_de_preparo CDATA #REQUIRED
+                tempo_de_cozimento CDATA #REQUIRED
+                >
+
+<!ATTLIST ingrediente
+                quantidade CDATA #REQUIRED
+                unidade (xicaras | gramas | colheres) #REQUIRED
+                estado CDATA #IMPLIED
+                >
